@@ -3,9 +3,9 @@
 # 📊 Chase Customer Complaints Analysis (2022–2024)
 
 ## 1. Background & Overview
-Chase, one of the largest U.S. banks, receives tens of thousands of consumer complaints each year through the Consumer Financial Protection Bureau (CFPB). This analysis examines **46,478 consumer complaints between 2022–2024**, covering the bank’s core product offerings including deposit accounts, credit cards, mortgages, and consumer lending.  
+Chase, one of the largest U.S. banks, receives tens of thousands of consumer complaints each year through the Consumer Financial Protection Bureau (CFPB). This analysis examines **46k+ consumer complaints between 2022–2024**, covering the bank’s core product offerings including deposit accounts, credit cards, mortgages, and consumer lending.  
 
-The project synthesizes complaint volume trends, resolution patterns, geographic distribution, and product-specific pain points to identify strategic opportunities for operational improvements and enhanced customer experience delivery.  
+The project synthesizes complaint volume trends, resolution patterns, geographic distribution, and product-specific pain points to identify opportunities for operational improvements and improved customer experience.  
 
 ---
 
@@ -17,6 +17,9 @@ The dataset included ~46,000 complaint records, with key fields including:
 - **Issue & Sub-Issue** (e.g., billing errors, account management)  
 - **State** (location of consumer)  
 - **Company Response to Consumer** (closed with explanation, closed with relief, etc.)  
+
+**Additional Documentation**  
+Technical documentation including the dataset, detailed methodology, and visuals of each chart can be found in this repository.  
 
 ---
 
@@ -65,7 +68,7 @@ This shift suggests either tightened internal resolution policies or improved co
 ### Five States Account for Over Half of Complaints
 Five states—**California (7,792 complaints), Texas (4,237), Florida (4,725), New York (5,290), and Illinois (2,699)**—account for **52%** of all complaints.  
 
-While population density partially explains this concentration, the disproportionate volumes suggest **regional operational variations or market-specific service delivery gaps that present opportunities for targeted improvement**.  
+While population density partially explains this concentration, the disproportionate volumes indicate **regional operational variations or market-specific service delivery gaps that present opportunities for targeted improvement**.  
 
 ---
 
@@ -78,10 +81,10 @@ While population density partially explains this concentration, the disproportio
 
 ---
 
-## 6. Methodology Notes and Assumptions
+## 6. Methodology Notes
 
 **Tools & Techniques**  
-This project was conducted entirely in **Microsoft Excel**, leveraging:  
+This project was done entirely in **Microsoft Excel**, leveraging:  
 - **Power Query** for cleaning, filtering, and standardizing product/issue categories and preparing the dataset  
 - **Pivot Tables** for aggregation  
 - **Pivot Charts** (bar, column, line, and map charts) for visualizing key trends and distributions  
@@ -93,8 +96,4 @@ This project was conducted entirely in **Microsoft Excel**, leveraging:
 - Analysis limited to complaints filed through CFPB; does not capture internal complaint resolution or alternative channels.  
 - Some complaint categories standardized may not perfectly align with internal Chase product classifications.  
 
-**Key Assumptions**  
-- Complaint patterns are representative of broader customer satisfaction trends.  
-- Resolution outcomes accurately reflect customer satisfaction with complaint handling.  
-- Year-over-year growth patterns indicate systematic rather than seasonal variations.  
 
