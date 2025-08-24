@@ -1,5 +1,3 @@
-# Financial-Services-Complaint-Analysis
-
 # 📊 Chase Customer Complaints Analysis (2022–2024)
 
 ## 1. Background & Overview
@@ -39,7 +37,7 @@ Technical documentation including the dataset, detailed methodology, and visuals
   
 ---
 
-## 4. Strategic Insights Deep Dive
+## 4. Insights Deep Dive
 
 ### Rising Complaint Volume Highlights Systemic Challenges
 Chase complaints grew **52% from 2022 to 2024**, with concerning acceleration in growth rates rather than stabilization. The 28% increase in 2023 followed by sustained 24% growth in 2024 indicates underlying operational or policy changes driving persistent customer dissatisfaction. This pattern highlights the need for a comprehensive customer experience audit across core service delivery channels.  
